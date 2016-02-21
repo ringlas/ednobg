@@ -26,6 +26,7 @@ var header_bottom_border_weight = 1;
 var scroll_amount_for_fixed_hiding = 200;
 var paspartu_width_init = 0.02;
 var add_for_admin_bar = 0;
+	scroll_amount_for_sticky = 1;
 
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
@@ -63,7 +64,7 @@ function initialize() {
 	geocoder = new google.maps.Geocoder();
 	var latlng = new google.maps.LatLng(-34.397, 150.644);
 	var myOptions = {
-		zoom: 12,
+		zoom: 17,
 				scrollwheel: false,
 				center: latlng,
 		zoomControl: true,
@@ -144,7 +145,7 @@ function showContactMap() {
 		codeAddress("");
 		codeAddress("");
 		codeAddress("");
-		codeAddress("Museum of the City of New York, New York, USA");
+		codeAddress("ул. „Юрий Венелин“ 1, 1000 София");
 	}
 }
 

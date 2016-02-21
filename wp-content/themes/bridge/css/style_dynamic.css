@@ -5,11 +5,20 @@
 
 
 
+header.fixed.scrolled .header_bottom,
+header.fixed.scrolled .header_top,
+header.fixed_hiding.scrolled .header_bottom,
+header.fixed_hiding.scrolled .header_top {
+	background-color: rgba(255,255,255,1) !important;
+}
 
 
 
 
 
+header.sticky .header_top{
+	background-color: rgba(0,0,0,1);
+}
 
 
 
@@ -41,6 +50,10 @@
 	}
 
 
+
+nav.main_menu > ul > li > a{
+			font-family: 'Open Sans', sans-serif;
+		    				}
 
 
 
@@ -228,12 +241,47 @@ h2 a{
 
 
 
+														.qode_search_form,
+		.qode_search_form input,
+		.qode_search_form input:focus {
+			background-color: #000000;		}
+	
+
+    .qode_search_form_2 .form_holder_outer,
+	.qode_search_form_2.animated .form_holder_outer,
+	.qode_search_form_2{
+		height: 75px;
+    }
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+	.qode_search_form_2,
+	.qode_search_form_2 input[type="text"],
+	.qode_search_form_2 input[type="text"]:focus,
+	.qode_search_form_3,
+	.qode_search_form_3 input[type="text"],
+	.qode_search_form_3 input[type="text"]:focus,
+	.fullscreen_search_overlay,
+	.fullscreen_search_holder.fade,
+	.qode_search_form,
+	.qode_search_form input, 
+	.qode_search_form input:focus{
+		background-color: #000000;
+    }
 
 
 
